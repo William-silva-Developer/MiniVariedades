@@ -1,0 +1,11 @@
+
+.footer{
+    background: #161111;
+    height: 35vh;
+    color: rgb(32, 241, 4);
+    display: flex;
+    justify-content: center;
+    border-radius: 20% 20% 0px 0px;
+    padding-top: 1%;
+    
+}
