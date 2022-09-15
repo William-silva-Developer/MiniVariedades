@@ -5,16 +5,43 @@
    background: rgba(173, 164, 164, 0.2);
    flex-wrap: wrap;
 }
-.image{
+.prime{
     background: rgba(80, 66, 156, 0.788);
     padding: 12px;
     border-radius: 20px;
     display: flex;
     margin: 1%;
 }
-.image .title{
+.prime .title{
     margin-left: 1%;
 }
+.title  p {
+    flex-wrap: wrap;
+    display: flex;
+    font-size: 0.9em;
+    color: #fffffff3;
+    
+}
+
+
+img{
+   
+    max-width: 200px;
+    max-height: 200px;
+    padding: 10px;
+    background: #101010;
+    border-radius: 10px;
+
+
+}
+
+img:hover{
+    -moz-transform: scale(3.1);
+    -webkit-transform: scale(0.3s);
+    transform: scale(1.1);
+}
+
+
 
 
 

@@ -30,11 +30,22 @@ import  Products  from '../Models/Products';
     
     {products.map(item => (
       <div className={styles.main}>
-          <div className={styles.image}>
-            <img src={item.image} alt="" width={200} height={200} />
-            <div className={styles.title}>
-              <h2 >{item.title}</h2>
+          <div className={styles.prime}>
+            
+            <div className='zoom'>
+              <img src={item.image} alt="produto"  />
             </div>
+            
+              <div className={styles.title}>
+                <h3 >{item.title}</h3>
+              
+                  <p>{item.description}</p>
+                  <div className="category">
+                    <p className="category">{item.category}</p>
+                    <p className="price">R$ {item.price}</p>
+                  </div>
+                
+              </div>
             
           </div>
           
